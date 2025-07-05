@@ -1,0 +1,72 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f7fb;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+
+textarea {
+  width: 100%;
+  height: 200px;
+  margin-top: 15px;
+  font-family: 'Courier New', monospace;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#output {
+  margin-top: 20px;
+  background: #eee;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+#testResults {
+  margin-top: 20px;
+  padding: 10px;
+  font-family: monospace;
+  border-radius: 6px;
+}
+
+.test-pass {
+  color: #2e7d32;
+  background-color: #e8f5e9;
+  padding: 6px;
+  margin-bottom: 4px;
+  border-left: 5px solid #2e7d32;
+  border-radius: 4px;
+}
+
+.test-fail {
+  color: #c62828;
+  background-color: #ffebee;
+  padding: 6px;
+  margin-bottom: 4px;
+  border-left: 5px solid #c62828;
+  border-radius: 4px;
+}

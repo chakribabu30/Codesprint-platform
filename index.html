@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CodeSprint Challenge</title>
+
+  <!-- CodeMirror CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.13/codemirror.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.13/theme/material-darker.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🧠 Challenge: Two Sum</h1>
+     <!-- 🌗 Theme Toggle Button -->
+    <button onclick="switchTheme()">🌙 Toggle Theme</button>
+     <!-- 🧩 Challenge Selector Dropdown -->
+    <select id="challengeSelector" onchange="loadChallenge()">
+      <option value="twoSum">Two Sum</option>
+      <option value="longestSubstring">Longest Substring Without Repeating Characters</option>
+      <option value="containerWater">Container With Most Water</option>
+    </select>
+
+    <p>Return indices of two numbers that sum to a target.</p>
+
+    <textarea id="editor">// Write your JS code here</textarea>
+    <button onclick="runCode()">🚀 Run Code</button>
+     <button onclick="runTests()">🧪 Run Tests</button>
+
+    <!-- 🔽 Here's your test results area -->
+    <div id="testResults"></div>
+
+    <pre id="output"></pre>
+  </div>
+
+  <!-- CodeMirror Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.13/codemirror.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.13/mode/javascript/javascript.min.js"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>
